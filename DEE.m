@@ -1,4 +1,16 @@
-%diffiusion equation explicit
+%===================================
+%    Shayan Dodge
+%    MSc in Physics
+% M: +98 935 741 67 63 
+% E: dodgeshayan@gmail.com 
+% A: Tehran, Iran 
+%===================================
+% The explicit solve of the diffiusion equation (d^2Q/dx^2=k(dQ/dt))
+% where k is a constant. 
+%===================================
+clc
+close all;
+%===================================
 k=input('k=');
 x_0=input('x_0=');x_n=input('x_n=');
 t_0=input('t_0=');t_n=input('t_n=');
